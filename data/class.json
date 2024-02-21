@@ -122,7 +122,7 @@
             {
                 "name": "Colossus",
                 "tagline": "High Flying Grappler",
-                "description": "Ferocious followers of Arenheir, the Wolf Titan, the Colossi are a martial order of berserkers, pankrationists, and warriors that reaches across all of Arden Eld. They travel throughout the land seeking powerful foes, and taking trophies to return to their great lodges to offer in tribute to Arenheir in fierce hope of resurrecting their god. At their lodges they feast and drink to their deeds, companions, and boasts.",
+                "description": "Ferocious followers of Arenheir, the Wolf Titan, the Colossi are a martial order of berserkers, pankrationists, and warriors that reaches across all of Arden Eld. They travel throughout the land seeking powerful foes, and taking trophies to return to their great lodges to offer in tribute to Arenheir in fierce hope of resurrecting their god. At their lodges they feast and drink to their deeds, companions, and boasts. <br/>Colossi seek glory and challenge through battle, and will often go for only the absolute strongest warriors and monsters, heedless of their own safety. They fight with wild abandon and unconventional techniques that would make even the dirtiest Knave raise an eyebrow.",
                 "traits": [
                     {
                         "name": "Furious Berserk",
@@ -245,90 +245,213 @@
         "jobs": [
             {
                 "name": "Fool",
-                "tagline": "",
-                "description": "",
+                "tagline": "Masked Avenger",
+                "description": "Fools are dedicated defenders of the common people of Arden Eld, part folk hero, and part hired killer. They have no official organization, and cover their faces with masks to hide their identity, wearing bells and motley to cover their collections of deadly weapons and explosives. <br/>Some people fear the Fools, calling them self-interested thugs or anarchic cultists of the Laughing God. They may not be entirely wrong, but none can deny their flair for the theatrical. <br/>They are feared rightly by all would-be tyrants, under-barons, and aspiring imperial lords. Wherever kin labor under oppression, someone will take up the mask and knives and sent cold jolts of fear into the hearts of the rich and comfortable.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Tumbling",
+                        "desc": "You may <i>phase</i> through characters. Entering the space of any character, including summons, always costs a maximum of 1 movement."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Curse of Chaos",
+                        "desc": "You have <i>evasion</i> against characters that are 3 or more spaces away from you."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Cheap Trick",
+                        "desc": "When an attack misses you, you may <i>teleport</i> 1 space, then leave a <i>bomb</i> in an adjacent space."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Stack Dice",
+                        "desc": "Once a round, when you trigger a <i>finishing blow</i> or <i>slay</i> effect, gain a <i>Stacked Die</i> after that ability resolves. You can use this die when you <i>gamble</i> to make the <i>gamble</i> result 6, consuming the die. You can only hold on to one Stacked Die at once, and lose all of them at the end of combat."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Curtain Call",
+                    "blurb":"Bring out the fireworks. Fire up the elden magic. Time for a showstopper.",
+                    "description": "<b>Effect: Gamble</b>, then draw a line <i>area effect</i> of that many spaces +2. Soar into the air, removing yourself from the battlefield, then place yourself adjacent to the <i>first</i> foe in that line, delivering a massive blow. This ability has different effects depending on their position on the line. If there ar eno valid targets after rolling, the resolve cost of this ability is refunded. <br/> Roll [D] + fray damage once, then apply it the number of times listed. <br/> <b>3-5 spaces:</b> x2 <br/> <b>6-7 spaces:</b> x3 <br/> <b>8 spaces:</b> x4 and the character is <i>stunned</i>.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 24}, 
+                        {"tag_name": "action", "val": 2},
+                        {"tag_name": "divine"},
+                        {"tag_name": "gamble"},
+                        {"tag_name": "true strike"}
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Ultima Curtain Call",
+                        "desc": "After this ability resolves, summon half as many bombs as your <i>gamble</i> result anywhere on the battlefield."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Death's Apprentice",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "You can hold on to 2 stacked dice at once."
                 }
             },
             {
                 "name": "Freelancer",
-                "tagline": "",
-                "description": "",
+                "tagline": "Divine Punisher",
+                "description": "Freelancers are free-roaming exorcists and hired guns, roaming the land and fighting blights, demons and bandits in the name of justice. They tend to act as wild cards: highly independent, highly effective, and sticking to their codes of honor. <br/>Freelancers have their history in an ancient disgraced knightly order from one of the Seven Families of the Thrynn. They each wield a bright metal six gun, a bow, or a long rifle with extreme skill, the bullets, shot, or arrows of which they infuse with raw Aether drawn from their very souls. Each weapon is a relic passed down from master to student over the years, and can only be won in a duel with another freelancer. The freelancer’s ultimate weapon is the Astral Chain, a holy gauntlet which they use to purge and bind demons and rogue spirits into their service as Seraphim.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Bound Spirit",
+                        "desc": "At the start of combat, you may place your <i>seraph</i> in range 2 from you. This summon persists even if you're defeated."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Aether Shot",
+                        "desc": "Any attack made on the third and sixth round of combat deals bonus damage and triggers all <i>exceed</i> effects, hit or miss."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Trigrammaton",
+                        "desc": "Your abilities used against foes at exactly range 3 gain +1 boon on attack rolls and <i>unerring</i>."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Astral Binding",
+                        "desc": "You can stack up to two marks on characters. As a <i>free action</i>, you can teleport all characters marked by you 1 space."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Paradiso",
+                    "blurb":"You summon the spirit of you weapon, drawing out the residual soul aether of every single one of its previous users. Ghostly doubles of dozens of your predecessors match your mvoements, and create an aura of untold power.",
+                    "description": "You gain an aura of supernatural accuracy, charging your weapons and the weapons of your allies with aether. <br/>You gain <i>Aura 2</i> until the end of your next turn. While standing in Paradiso, abilities used by you or allies against foes outside of Paradiso trigger <i>all</i> the following triggered effects: <i>charge, collide, comeback, chain reaction, exceed, finishing blow, slay</i>.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 3}, 
+                        {"tag_name": "action", "val": 1},
+                        {"tag_name": "aura"}
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Ultima Paradiso",
+                        "desc": "As a free action ability while Paradiso is active, you can teleport yourself, all allies, and the area itself to any other part of the battlefield, as long as there is free space to place all characters teleported inside the area when it is moved."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Divine Chamber",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "Your sixth round Aether Shell also deals <i>divine</i> damage."
                 }
             },
             {
                 "name": "Shade",
+                "tagline": "Nacturnal Assassin",
+                "description": "Night-walkers, shadow-steppers, and masters of secret scroll arts, the Shades are spies, scouts, and assassins of unparalleled skill. Their number forms a secret and deadly society of Shadow Clans spread across Arden Eld, each practicing and refining the Night Venom Techniques. Joining the shades is presumed to be extremely difficult, but they tend to open their ranks to anyone that has been lost or abandoned. <br/>The legends say Shades make a deal with the Weeper, the dead titan queen of night and air, and drink her tears, splitting their soul in two. Their shadow becomes animate, bestial and hungry. Over a week and a day, they must fast and train their shadow to obey them, transforming them into agile and silent warriors of the highest order. The Shades say the stories are rumors, and they get along with their Darksides. They do have a tendency to appear when least expected, in uncanny and unsettling ways.",
+                "traits": [
+                    {
+                        "name": "Shadow Arts",
+                        "desc": "You have <i>phasing</i> and are immune to <i>blinded</i>."
+                    },
+                    {
+                        "name": "Underworld",
+                        "desc": "Abilities used against foes in <i>pits, difficult</i> or <i>dangerous</i> terrain gain <i>unerring</i> and deals bonus damage."
+                    },
+                    {
+                        "name": "Darkside",
+                        "desc": "When you first vacate a space on your turn, you may leave a <i>shadow</i>."
+                    },
+                    {
+                        "name": "Meld",
+                        "desc": "Once a round, before or after ysing any ability on your turn, you can swap places with any <i>shadow</i> in range 3, teleporting."
+                    }
+                ],
+                "limitbreak": {
+                    "name": "Abyssal Ecstasy",
+                    "blurb":"A prayer and a drop of blood, and soothing darkness cloaks the battlefield.",
+                    "description": "<b>Effect:</b> Yourself, all allies, and allied summons gain <i>stealth</i>, and all foes are <i>blinded</i>.",
+                    "tags":[
+                        {"tag_name": "resolve", "val": 2}, 
+                        {"tag_name": "action", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "Ultima Ecstasy",
+                        "desc": "Summon <i>shadows</i> adjacent to all allies."
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "Umbral Soul",
+                    "tags":[
+                    ],
+                    "description": "Once a round, one of your allies can swap places with any of your shadows before or after using any ability, teleporting."
+                }
+            },
+            {
+                "name": "Warden",
+                "tagline": "Friend to Beast and Bough",
+                "description": "The Wardens are the protectors and keepers of the Deep Green, the old and untamed parts of Arden Eld, lorded over by the beasts and the ancient trees. They are both the keepers and the servants of the herd and root, tending to their health, and culling them when it becomes necessary. They sleep under the stars and make their home under bough and root, making staunch allies of the ferocious beasts of the deep wilds through a combination of rigorous training and mutual respect. Their fierce defense of the wild sometimes puts them at odds with civilization, which they tend to have a distaste for. <br/>Wardens are the keepers of the green kenning, the old ranger arts, that allow one to travel noiselessly, hide in plain sight, live off the land, and become immune to even the most deadly of toxins. They are solitary and powerful fighters. It is not uncommon for a Warden on a long sojourn to go without speaking the tongue of Kin for years at a time.",
+                "traits": [
+                    {
+                        "name": "Beast Master",
+                        "desc": "At the start of every combat, summon a <i>great beast</i> in range 2, a trained animal companion. This summon persists even if you're defeated."
+                    },
+                    {
+                        "name": "Path of the Aesi",
+                        "desc": "While you have <i>stealth</i> the <i>dash</i> action becomes a free action."
+                    },
+                    {
+                        "name": "Ambush Master",
+                        "desc": "Your abilities made from <i>stealth</i> ignore cover, and deal bonus damage."
+                    },
+                    {
+                        "name": "Green Kenning",
+                        "desc": "You and your summons ignore all movement penalties from terrain. Any time you grant a dash, the target also gains this benefit."
+                    }
+                ],
+                "limitbreak": {
+                    "name": "Lycanthropy",
+                    "blurb":"You muster up the primal magic of the Deep Green. The power of fang, tooth, scale, fur, and claw pours into you, granting you masssively increased speed and power.",
+                    "description": "You become a beast hybrid of primal fury, You gain a greatly enhanced dash, with the following benefits: <ul><li>Dash always becomes a free action</li><li>All dashed granted as a part of any of your abilities, summons, or actions (including this one!) may be increased by +1, and grant <i>phasing</i> while moving.</li><li>When you take the dash action, all allies and allies summons can dash 1. Then, any foe adjacent to one or more characters that dashed this way takes 2 damage.</li></ul>",
+                    "tags":[
+                        {"tag_name": "resolve", "val": 3}, 
+                        {"tag_name": "action", "val": 1} , 
+                        {"tag_name": "divine"} 
+                    ],
+                    "ultimate":{
+                        "name": "Ultima Lycanthropy",
+                        "desc": "WHen you shape change, you can also allow allies to partly shift. The first two effects from Lycanthropy affect all allied characters."
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "Deep Stealth",
+                    "tags":[
+                    ],
+                    "description": "While in stealth, you cannot be directly targeted at all, even form adjacent spaces."
+                }
+            }
+        ]
+    },
+    {
+        "name": "MENDICANT",
+        "description": "Wandering Healer and Storyteller",
+        "stats": {
+            "vitality": 10,
+            "speed": 4,
+            "dash": 2,
+            "defence": 8,
+            "dice": 6,
+            "fray": 3,
+            "basic_atk": 5
+        },
+        "mechanic": {
+            "name": "Blessing",
+            "description": "Certain actions give characters a <b>Blessing</b> token. A character can <b>spend</b> a blessing when making a save to gain +1 boon on that save. <br/> All Mendicant jobs also have <b>different, alternative ways to spend blessings tokens</b>. All blessings are discarded at the end of combat. <br/> Blessings are not unique (they don't 'belong' to a character) and as long as a character has blessings form anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once.",
+            "gambit": "If you take a Mendicant ability as a non-Mendicant job, you gain this class' <b>Bless</b> action."
+        },
+        "traits": [
+            {
+                "name": "Diaga (1 action)",
+                "description": "<i>Cure</i> a character in range 4. <i>(A character that's cured gains 4 vigor, or a vigor surge if they are bloodied. Then, they can immediately save agianst all statuses, ending them on a success)</i>."
+            },
+            {
+                "name": "Bless (1 action)",
+                "description": "Grant a <b>blessing</b> token to a character in range 4."
+            },
+            {
+                "name": "Succor",
+                "description": "Mendicants may use Rescue to bring up a defeated ally at range 4 instead of adjacent."
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Chanter",
                 "tagline": "",
                 "description": "",
                 "traits": [
@@ -370,7 +493,91 @@
                 }
             },
             {
-                "name": "Warden",
+                "name": "Harvester",
+                "tagline": "",
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
+            },
+            {
+                "name": "Sealer",
+                "tagline": "",
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
+            },
+            {
+                "name": "Seer",
                 "tagline": "",
                 "description": "",
                 "traits": [
@@ -573,208 +780,6 @@
             },
             {
                 "name": "Stormbender",
-                "tagline": "",
-                "description": "",
-                "traits": [
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    }
-                ],
-                "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
-                    "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
-                    ],
-                    "ultimate":{
-                        "name": "",
-                        "desc": ""
-                    }
-                },
-                "ultimatetrait":{
-                    "name" : "",
-                    "tags":[
-                    ],
-                    "description": ""
-                }
-            }
-        ]
-    },
-    {
-        "name": "MENDICANT",
-        "description": "Wandering Healer and Storyteller",
-        "stats": {
-            "vitality": 10,
-            "speed": 4,
-            "dash": 2,
-            "defence": 8,
-            "dice": 6,
-            "fray": 3,
-            "basic_atk": 5
-        },
-        "mechanic": {
-            "name": "Blessing",
-            "description": "Certain actions give characters a <b>Blessing</b> token. A character can <b>spend</b> a blessing when making a save to gain +1 boon on that save. <br/> All Mendicant jobs also have <b>different, alternative ways to spend blessings tokens</b>. All blessings are discarded at the end of combat. <br/> Blessings are not unique (they don't 'belong' to a character) and as long as a character has blessings form anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once.",
-            "gambit": "If you take a Mendicant ability as a non-Mendicant job, you gain this class' <b>Bless</b> action."
-        },
-        "traits": [
-            {
-                "name": "Diaga (1 action)",
-                "description": "<i>Cure</i> a character in range 4. <i>(A character that's cured gains 4 vigor, or a vigor surge if they are bloodied. Then, they can immediately save agianst all statuses, ending them on a success)</i>."
-            },
-            {
-                "name": "Bless (1 action)",
-                "description": "Grant a <b>blessing</b> token to a character in range 4."
-            },
-            {
-                "name": "Succor",
-                "description": "Mendicants may use Rescue to bring up a defeated ally at range 4 instead of adjacent."
-            }
-        ],
-        "jobs": [
-            {
-                "name": "Chanter",
-                "tagline": "",
-                "description": "",
-                "traits": [
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    }
-                ],
-                "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
-                    "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
-                    ],
-                    "ultimate":{
-                        "name": "",
-                        "desc": ""
-                    }
-                },
-                "ultimatetrait":{
-                    "name" : "",
-                    "tags":[
-                    ],
-                    "description": ""
-                }
-            },
-            {
-                "name": "Harvester",
-                "tagline": "",
-                "description": "",
-                "traits": [
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    }
-                ],
-                "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
-                    "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
-                    ],
-                    "ultimate":{
-                        "name": "",
-                        "desc": ""
-                    }
-                },
-                "ultimatetrait":{
-                    "name" : "",
-                    "tags":[
-                    ],
-                    "description": ""
-                }
-            },
-            {
-                "name": "Sealer",
-                "tagline": "",
-                "description": "",
-                "traits": [
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    },
-                    {
-                        "name": "",
-                        "desc": ""
-                    }
-                ],
-                "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
-                    "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
-                    ],
-                    "ultimate":{
-                        "name": "",
-                        "desc": ""
-                    }
-                },
-                "ultimatetrait":{
-                    "name" : "",
-                    "tags":[
-                    ],
-                    "description": ""
-                }
-            },
-            {
-                "name": "Seer",
                 "tagline": "",
                 "description": "",
                 "traits": [
