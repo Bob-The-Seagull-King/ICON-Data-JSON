@@ -11,6 +11,11 @@
             "fray": 4,
             "basic_atk": 3
         },
+        "mechanic": {
+            "name": "Heroics",
+            "description": "Stalwarts can push themselves beyond their normal limits, performing <b>heroics</b> and activaitng any <b>heroic</b> triggered effects of an ability. Each job has different ways of performing heroics.",
+            "gambit": "If you take a Stalwart ability as a non-Stalwart class, you get Heroics, and the ability to triggera Heroic ability for free once a combat."
+        },
         "traits": [
             {
                 "name": "Armor 2",
@@ -40,7 +45,7 @@
                     },
                     {
                         "name": "Bull’s Strength",
-                        "desc": "All your abilities gain collide: deal 2 damage. Characters can’t take this damag more than once a turn."
+                        "desc": "All your abilities gain collide: deal 2 damage. Characters can’t take this damage more than once a turn."
                     },
                     {
                         "name": "Shieldmaster",
@@ -59,19 +64,136 @@
                         "name": "PERFECT HELION",
                         "desc": "You can repeat this effect once on either allies or enemies."
                     }
+                },
+                "ultimatetrait":{
+                    "name" : "Black Rock Vanguard",
+                    "tags":[
+                    ],
+                    "description": "You can take any number of interrupts per turn. When you take an interrupt, you may <i>rush 1</i> after it resolves."
                 }
             },
             {
                 "name": "Demon Slayer",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Colossus",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Knave",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             }
         ]
     },
@@ -86,6 +208,11 @@
             "dice": 10,
             "fray": 2,
             "basic_atk": 4
+        },
+        "mechanic": {
+            "name": "Finishing Blow",
+            "description": "Abilities with <b>Finishing Blow</b> triggered effects gain additional, more powerful effects if they target at least one <i>bloodied</i> foe. Effects depend on the action.",
+            "gambit": "If you take a Vagabond ability as a non-Vagabond class, your <i>vagabond<i> abilities benefit from <b>Finesse</b>."
         },
         "traits": [
             {
@@ -108,19 +235,167 @@
         "jobs": [
             {
                 "name": "Fool",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Freelancer",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Shade",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Warden",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             }
         ]
     },
@@ -135,6 +410,11 @@
             "dice": 8,
             "fray": 3,
             "basic_atk": 6
+        },
+        "mechanic": {
+            "name": "Aether",
+            "description": "All Wrights gather <b>Aether</b> during combat, represented by a d6 <b>power die</b>. They passively gain 1 at the start of their turn, starting with 0. Use a d6 to track Aether. Other abilities and <b>Chain Reaction</b> will generate Ather when used. All Aether disperses at the end of combat. \n <b>INFUSE X:</b> \n Many wright abilities have upgraded versions that can only be cast by <b>Infusing</b> them by spending X Aether as part of that ability. Aether is consumed at the start of the action. Only one infusion can be chosen at once, and only once infuse effect can trigger at a time. \n Infused abilities count as the same ability as the base ability and also benefit from all talents.",
+            "gambit": "If you take a Wright ability as a non-wright class, you get <b>Aether</b> and <b>Chain Reaction</b>."
         },
         "traits": [
             {
@@ -153,19 +433,167 @@
         "jobs": [
             {
                 "name": "Enochian",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Geomancer",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Spellblade",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Stormbender",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             }
         ]
     },
@@ -180,6 +608,11 @@
             "dice": 6,
             "fray": 3,
             "basic_atk": 5
+        },
+        "mechanic": {
+            "name": "Blessing",
+            "description": "Certain actions give characters a <b>Blessing</b> token. A character can <b>spend</b> a blessing when making a save to gain +1 boon on that save. \n All Mendicant jobs also have <b>different, alternative ways to spend blessings tokens</b>. All blessings are discarded at the end of combat. \n Blessings are not unique (they don't 'belong' to a character) and as long as a character has blessings form anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once.",
+            "gambit": "If you take a Mendicant ability as a non-Mendicant job, you gain this class' <b>Bless</b> action."
         },
         "traits": [
             {
@@ -198,19 +631,167 @@
         "jobs": [
             {
                 "name": "Chanter",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Harvester",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Sealer",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             },
             {
                 "name": "Seer",
-                "description": ""
+                "description": "",
+                "traits": [
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    },
+                    {
+                        "name": "",
+                        "desc": ""
+                    }
+                ],
+                "limitbreak": {
+                    "name": "",
+                    "blurb":"",
+                    "description": "",
+                    "tags":[
+                        {"tag_name": "", "val": 2}, 
+                        {"tag_name": "", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "",
+                        "desc": ""
+                    }
+                },
+                "ultimatetrait":{
+                    "name" : "",
+                    "tags":[
+                    ],
+                    "description": ""
+                }
             }
         ]
     }
