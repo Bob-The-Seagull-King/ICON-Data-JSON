@@ -33,6 +33,7 @@
         "jobs": [
             {
                 "name": "Bastion",
+                "tagline": "Unbreakable Knight",
                 "description": "The Bastions are the shield lords of Arden Eld, larger than life figures that tread the ancient imperial roads with their heads held high and armor gleaming. From town to town they act as errant knights and mercenaries, protecting the weak and vulnerable, and driving back the Blights with hammer-like blows from their greatshields, which they throw like a discus with incredible force. The imperious and mighty presence of a Bastion in town is a stabilizing force and can become an event for a whole village. All Bastions follow an ancient and long-forgotten hero’s code, an old oath to stand against chaos in all its forms.",
                 "traits": [
                     {
@@ -74,6 +75,7 @@
             },
             {
                 "name": "Demon Slayer",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -115,6 +117,7 @@
             },
             {
                 "name": "Colossus",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -156,6 +159,7 @@
             },
             {
                 "name": "Knave",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -235,6 +239,7 @@
         "jobs": [
             {
                 "name": "Fool",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -276,6 +281,7 @@
             },
             {
                 "name": "Freelancer",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -317,6 +323,7 @@
             },
             {
                 "name": "Shade",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -358,6 +365,7 @@
             },
             {
                 "name": "Warden",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -433,6 +441,7 @@
         "jobs": [
             {
                 "name": "Enochian",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -474,6 +483,7 @@
             },
             {
                 "name": "Geomancer",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -515,6 +525,7 @@
             },
             {
                 "name": "Spellblade",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -556,6 +567,7 @@
             },
             {
                 "name": "Stormbender",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -631,6 +643,7 @@
         "jobs": [
             {
                 "name": "Chanter",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -672,6 +685,7 @@
             },
             {
                 "name": "Harvester",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -713,6 +727,7 @@
             },
             {
                 "name": "Sealer",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
@@ -754,6 +769,7 @@
             },
             {
                 "name": "Seer",
+                "tagline": "",
                 "description": "",
                 "traits": [
                     {
