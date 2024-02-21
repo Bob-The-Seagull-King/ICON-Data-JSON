@@ -1,0 +1,20 @@
+[
+    {
+        "name": "APE GOD",
+        "desc": "This gauntlet or weapon is oversized, studded with metal, and incredibly heavy",
+        "tier 1": "<b>Invoke (Attack, 17+)</b> - Stun your attack target.",
+        "tier 2": "Become <i>immune</i> to stun",
+        "tier 3": "When you stun a foe, you can also stun another foe within 2 spaces of that character. ",
+        "tier 4": "If your Invoke goes off, your attack also deals bonus damage, shoves all foes adjacent to your target 1, and you may shove yourself 2 in any direction after it resolves.",
+        "quest": "Climb the highest peak in Arden Eld"
+    },     
+    {
+        "name": "CRIMSON KING",
+        "desc": "A blood red gem, similar to an Elixir Stone, is set into this weapon or armor.",
+        "tier 1": "When you’re at 25% hp or lower, you may reduce all <i>sacrifice</i> costs to <i>sacrifice</i> 2 if higher, even those based on % of your hp.",
+        "tier 2": "When you’d take any wound, roll a d6. On a 6, ignore the wound. If you’d already roll a d6 to ignore a wound, instead improve that roll by 1, to a minimum of 2+.",
+        "tier 3": "<i>Free Action: Sacrifice 4,</i> then deal 4 damage to a foe in range 4.",
+        "tier 4": "Crimson King I reduces costs to <i>sacrifice</i> 1.",
+        "quest": "Quench your relic in the abyssal blood of a powerful demon."
+    } 
+]

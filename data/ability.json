@@ -1,0 +1,26 @@
+[
+    {
+        "job": "Bastion",
+        "name": "Heracule",
+        "tags":[
+            {"tag_name": "action", "val": 1}, 
+            {"tag_name": "attack"},
+            {"tag_name": "range", "val": 3},
+            {"tag_name": "true strike"}
+        ],
+        "description": "<b>Attack:</b> <i>On hit:</i> [D] + fray. Miss: fray.<br> <b>Effect:</b> Attack target is weakened and shoved 1<br> <b>Effect:</b> A different foe in range 3 from your target is shoved 1 away from your main target.<br> <b>Collide or Heroic:</b> Repeat the above effect<br>",
+        "blurb": "Hurl your shield or weapon as a discus with irrepressible force.",
+        "talent1":"Heracule’s shoves can be in any direction",
+        "talent2":"Heracule’s second effect triggers +1 more time.",
+        "talent3name": "PERFECT HERACULE",
+        "talent3":"Heracule gains <i>rebound<i>, and its second effect triggers +1 more time"
+    },
+    {
+        "job": "Bastion",
+        "name": "Battering Ram",
+        "tags":[
+            {"tag_name": "attack"}
+        ],
+        "description": "desc here..."
+    }
+]

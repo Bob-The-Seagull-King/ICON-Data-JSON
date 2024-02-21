@@ -1,0 +1,217 @@
+[
+    {
+        "name": "STALWART",
+        "description": "Weapon master and unparalleled soldier",
+        "stats": {
+            "vitality": 10,
+            "speed": 4,
+            "dash": 2,
+            "defence": 6,
+            "dice": 6,
+            "fray": 4,
+            "basic_atk": 3
+        },
+        "traits": [
+            {
+                "name": "Armor 2",
+                "description": "Reduce all damage taken by 2"
+            },
+            {
+                "name": "Fortify",
+                "description": "Spaces adjacent to you have <i>Rampart</i>. Gain <i>Vigilance</i> +1 at the end of your turn."
+            },
+            {
+                "name": "Rush X",
+                "description": "Stalwarts can <i>rush</i> as part of their abilities. When you rush, you move X spaces and are <i>unstoppable</i> and <i>immune</i> to all damage during that move."
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Bastion",
+                "description": "The Bastions are the shield lords of Arden Eld, larger than life figures that tread the ancient imperial roads with their heads held high and armor gleaming. From town to town they act as errant knights and mercenaries, protecting the weak and vulnerable, and driving back the Blights with hammer-like blows from their greatshields, which they throw like a discus with incredible force. The imperious and mighty presence of a Bastion in town is a stabilizing force and can become an event for a whole village. All Bastions follow an ancient and long-forgotten hero’s code, an old oath to stand against chaos in all its forms.",
+                "traits": [
+                    {
+                        "name": "Strive",
+                        "desc": "You may cause any ability to trigger its heroic effects when you use it, and increase the distance of any shoves by +1. If you do, after that ability resolves, you can’t use heroics until the end of your next turn, and deal half damage during that turn"
+                    },
+                    {
+                        "name": "Press the Advantage",
+                        "desc": "Once a round, when you shove a character, you and an ally of your choice anywhere can each rush 1"
+                    },
+                    {
+                        "name": "Bull’s Strength",
+                        "desc": "All your abilities gain collide: deal 2 damage. Characters can’t take this damag more than once a turn."
+                    },
+                    {
+                        "name": "Shieldmaster",
+                        "desc": " You have aura 1. If you end your turn with an ally in the aura, gain vigilance +1 and become sturdy until the start of your turn."
+                    }
+                ],
+                "limitbreak": {
+                    "name": "Helion",
+                    "blurb":"Your shield becomes the sun: a discus of light and motion, shattering enemy ranks and spurring allies forth.",
+                    "description": "<b>Effect:</b> You hurl your shield, and every character on the battlefield is shoved 1 space in a direction of your choice. You may shove in any order, and may choose different directions for each character. <br> <b>Effect:</b> Bloodied foes are weakened. Foes at 25% hp or lower are stunned.",
+                    "tags":[
+                        {"tag_name": "resolve", "val": 2}, 
+                        {"tag_name": "action", "val": 1} 
+                    ],
+                    "ultimate":{
+                        "name": "PERFECT HELION",
+                        "desc": "You can repeat this effect once on either allies or enemies."
+                    }
+                }
+            },
+            {
+                "name": "Demon Slayer",
+                "description": ""
+            },
+            {
+                "name": "Colossus",
+                "description": ""
+            },
+            {
+                "name": "Knave",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "VAGABOND",
+        "description": "Rogue, Scoundrel, and Blade for Hire",
+        "stats": {
+            "vitality": 7,
+            "speed": 4,
+            "dash": 4,
+            "defence": 10,
+            "dice": 10,
+            "fray": 2,
+            "basic_atk": 4
+        },
+        "traits": [
+            {
+                "name": "Skirmisher",
+                "description": "A character with this trait can move diagonally and dash at full speed."
+            },
+            {
+                "name": "Dodge",
+                "description": "Immune to <i>all</i> damage from missed attacks, successful saves, and and <i>area effects</i>."
+            },
+            {
+                "name": "Prowl (1 action)",
+                "description": "Gain <i>stealth</i>. Becomes a <i>free action</i> if no foes are in range 2."
+            },
+            {
+                "name": "Finesse",
+                "description": "You deal bonus damage to bloodied foes."
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Fool",
+                "description": ""
+            },
+            {
+                "name": "Freelancer",
+                "description": ""
+            },
+            {
+                "name": "Shade",
+                "description": ""
+            },
+            {
+                "name": "Warden",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "WRIGHT",
+        "description": "Mage, thaumaturge, and master of the arcane arts",
+        "stats": {
+            "vitality": 8,
+            "speed": 4,
+            "dash": 2,
+            "defence": 7,
+            "dice": 8,
+            "fray": 3,
+            "basic_atk": 6
+        },
+        "traits": [
+            {
+                "name": "Slip",
+                "description": "Wright's movement does not trigger and ignores <i>interrupts</i>, <i>vigilance</i> and <i>rampart</i>."
+            },
+            {
+                "name": "Aetherwall",
+                "description": "Wrights gain <i>resistance</i> against all abilities from characters that are outside of range 2 from them."
+            },
+            {
+                "name": "Chain Reaction",
+                "description": "1/round, if a wright damages two or more foes with an ability, they gain 1 Aether after the ability resolves."
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Enochian",
+                "description": ""
+            },
+            {
+                "name": "Geomancer",
+                "description": ""
+            },
+            {
+                "name": "Spellblade",
+                "description": ""
+            },
+            {
+                "name": "Stormbender",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "name": "MENDICANT",
+        "description": "Wandering Healer and Storyteller",
+        "stats": {
+            "vitality": 10,
+            "speed": 4,
+            "dash": 2,
+            "defence": 8,
+            "dice": 6,
+            "fray": 3,
+            "basic_atk": 5
+        },
+        "traits": [
+            {
+                "name": "Diaga (1 action)",
+                "description": "<i>Cure</i> a character in range 4. <i>(A character that's cured gains 4 vigor, or a vigor surge if they are bloodied. Then, they can immediately save agianst all statuses, ending them on a success)</i>."
+            },
+            {
+                "name": "Bless (1 action)",
+                "description": "Grant a <b>blessing</b> token to a character in range 4."
+            },
+            {
+                "name": "Succor",
+                "description": "Mendicants may use Rescue to bring up a defeated ally at range 4 instead of adjacent."
+            }
+        ],
+        "jobs": [
+            {
+                "name": "Chanter",
+                "description": ""
+            },
+            {
+                "name": "Harvester",
+                "description": ""
+            },
+            {
+                "name": "Sealer",
+                "description": ""
+            },
+            {
+                "name": "Seer",
+                "description": ""
+            }
+        ]
+    }
+]
