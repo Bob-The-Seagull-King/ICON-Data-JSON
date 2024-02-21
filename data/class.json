@@ -75,128 +75,134 @@
             },
             {
                 "name": "Demon Slayer",
-                "tagline": "",
-                "description": "",
+                "tagline": "Master of the Forbidden Arts",
+                "description": "Warriors of impossible strength and insane bravado, demon slayers are warriors that specialize in fighting the largest and most dangerous monsters to crawl out of the pits that riddle the land. They relish in fighting against impossible odds, training themselves in forbidden techniques, arcane arts, and oversized weaponry that normal Kin would quake at wielding. They organize themselves into loose orders and train and hunt together, sharing tales and trophies of the colossal horrors they have slain. Some say in order to fight their quarries, the slayers must ingest demon blood to gain their strength, giving them dark and forbidden power that makes other Kin fear and respect them in equal measure.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Demon Edge",
+                        "desc": "If you elect to take a slow turn or use a delay effect, gain <i>vigilance +1</i>, and all your abilities deal <i>bonus damage</i> and gain <i>true strike</i> until the end of your next turn."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Demon Strength",
+                        "desc": "You can make any ability Heroic when you use it. If you do, you can't attack or use heroics until the end of your following turn."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Hissatsu",
+                        "desc": "If you don't attack during your turn, your next attack ability gains +1 boon, <i>true strike</i>, and upgrades its damage die to <i>d10</i>. This effect ends after you hit with an attack."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "True Horn",
+                        "desc": "You are <i>sturdy</i> from the start of each round until the start of your turn."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Split Heaven and Hell",
+                    "blurb":"Sever Divinity and cut through the threads of possibility. Pour all your rage into one blow and topple the Gods.",
+                    "description": "<b>End your turn,</b> and start charging up a god cutting blow. <b>Delay:</b> Your next turn must be slow. At the start of that turn, you may take one of the following options. <ul><li><b>Sever Divine Thread:</b> Swing your weapon a line 5 <b>area effect</b> drawn from your position. This counts as using an attack this turn. Characters in the line take damage depending on their distance on the line from you. <ul><li><b>1 space:</b> 100% of max hp</li><li><b>2-4 space:</b> 50% of max hp</li><li><b>5+ spaces:</b> 25% of max HP</li></ul></li><li><b>Divine Cancel:</b> You may cancel this ability, refunding the resolve cost, and <i>rush 1</i>. You can limit break again this combat, but not this turn.</li><li><b>Divine Delay:</b> You continue to hold this baility. Your next turn must be slow and repeat this delay effect. Each time you do this, increase the width of the line by 1 space, to a maximum of 3 width, and its length by 3 spaces. You cannot attack while holding Divine Delay.</li></ul> Legend characters always take 25% of max hp from this ability instead of other effects.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 3}, 
+                        {"tag_name": "action", "val": 1}, 
+                        {"tag_name": "end turn"},
+                        {"tag_name": "delay"},
+                        {"tag_name": "true strike"},
+                        {"tag_name": "divine"}
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "God Waster",
+                        "desc": "While holding a God Cutting Blow, you can <i>rush 2</i> at the start or end of any other turn thatn yours, but no more than twice a round."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Rangiri",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "If you trigger Hissatsu twice in a row, your attack ability becomes upgraded further. The entire ability now deals <i>double damage</i>. Roll and determine all damage on the atatcker's end when making it, then double the total before applying it."
                 }
             },
             {
                 "name": "Colossus",
-                "tagline": "",
-                "description": "",
+                "tagline": "High Flying Grappler",
+                "description": "Ferocious followers of Arenheir, the Wolf Titan, the Colossi are a martial order of berserkers, pankrationists, and warriors that reaches across all of Arden Eld. They travel throughout the land seeking powerful foes, and taking trophies to return to their great lodges to offer in tribute to Arenheir in fierce hope of resurrecting their god. At their lodges they feast and drink to their deeds, companions, and boasts.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Furious Berserk",
+                        "desc": "You go into a furious blood rage as you take damage, giving you the following benefits: <ul><li>You start combat with <i>defiance</i></li><li>You have <i>regeneration</i>, and regain regeneration if defeated and rescued.</li><li>While you're <i>bloodied</i>, you are <i>sturdy</i>, and gain <i>vigilance +1</i> at the end of your turn.</li></ul>"
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Wolfheart",
+                        "desc": "Once a round, you may <i>sacrifice 25%</i> of your max hp to make an ability <i>Heroic</i> and increase the distance of any flight, rush, or dash as part of that move by +1."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Pulverize",
+                        "desc": "When you start an attack ability on higher elevation than your target, it deals bonus damage. If you are two or more levels higher, it also triggers all <i>exceed</i> effects."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Great Leap",
+                        "desc": "When you would end any movement on a lower elevation than you started, you may gain <i>flying</i> for the duraction of that movement."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Gigantas Crusher",
+                    "blurb":"Wrestle with the gods themselves",
+                    "description": "<b>Effect:</b> You grab an adjacent character. That character must save. Even if that character saves successfully, you grab them, and you both soar into the air. Remove both of you from the battlefield. At the start of that character's turn, you come spinning back to earth, slamming that character into the battlefield in an unoccupied space in range 2 of your original location. You <i>sacrifice</i> 25% of your hp. Your foe take 50% of their max hp as <i>divine</i> damage, or 25% as <i>divine</i> damage on a successful save. THen place both of you back in or adjacent to that space. <br.> This ability can be used against Legends, but they may always save, taking <i>divine</i> fray damage on refunding this ability's resolve cost on asuccessful save, and only 25% hp as <i>divine</i> damage on a failed save.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 3}, 
+                        {"tag_name": "action", "val": 2},
+                        {"tag_name": "divine"},
+                        {"tag_name": "sacrifice"} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Atomos Crusher",
+                        "desc": "If you're at 1 hp or lower, this ability deals 25% more max hp damage to non-legend characters."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Unbreakable",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "If defeated, you can <i>rescue</i> yourself and take a turn as normal. This doesn't take an action and takes place at the start of your turn. In addition, after being rescued in any way, including as part of this trait, you can <i>rush 1</i> and deal 2 damage to all adjacent characters."
                 }
             },
             {
                 "name": "Knave",
-                "tagline": "",
-                "description": "",
+                "tagline": "Absolute Bastard",
+                "description": "The advent of the Churning Age has coincided with the rise of a certain class of person with heavypockets and a long list of ‘problems’ to solve. The Knaves are the solution. Hedge knights, rogue warriors, duelists, deserters, and veterans, they roam the land offering their services to whoever has the dust to spare. Though some of them are altruistically minded, they tend to go where the work, food, and fighting is thickest, and never stay for long in one location. <br/> Knaves operate under a loose moral code and an even looser no-holds-barred fighting style, using hilts, head butts, and gauntleted fists to inflict pain, punishment, and humiliation on their opponents in equal measure. These braggadocios warriors spare no effort in flexing their incredible strength - if the price isright. For a freshly roasted chicken, a pocket full of dust, and a polish of their boots, they’ll do just about anything.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Martial Master",
+                        "desc": "You can take two stances at once."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Blackheart",
+                        "desc": "While you're suffering from a status, gain <i>vigilance +1</i> at the end of your turn. If you are suffering from two or more, also deal <i>bonus damage</i> with all abilities."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Taunt (1 action)",
+                        "desc": "A foe in range 3 gains <i>hatred</i> of you."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Spite",
+                        "desc": "You can choose to use the Heroic effects of any ability when you use it. However, after it resolves, gain <i>Hatred+</i> of the closest foe to you until the end of your next turn and you can't use Heroics again for the same duraction. If multiple foes are equidistant, you can choose."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Mock",
+                    "blurb":"There is no weapon greater than a well-timed and well-aimed insult.",
+                    "description": "<b>Effect:</b> A foe in range 3 becomes <i>slashed+, weakened+,</i>, cannot gain or benefit from <i>evasion, dodge,</i> or <i>stealth</i>, and gains <i>hatred+</i> of you. These effects continue until the end of their next turn. <br/> <b>Special:</b> On elite and legend foes, this ability lasts two turns instead.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 2}, 
+                        {"tag_name": "action", "val": 1} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Dread Mock",
+                        "desc": "Gains range 5 and also deals <i>divine</i> fray damage to your foe."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Way of the Crow",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "If any ally is <i>defeated</i>, <i>cure</i> yourself and become <i>unstoppable</i> until the end of your next turn."
                 }
             }
         ]
@@ -421,7 +427,7 @@
         },
         "mechanic": {
             "name": "Aether",
-            "description": "All Wrights gather <b>Aether</b> during combat, represented by a d6 <b>power die</b>. They passively gain 1 at the start of their turn, starting with 0. Use a d6 to track Aether. Other abilities and <b>Chain Reaction</b> will generate Ather when used. All Aether disperses at the end of combat. \n <b>INFUSE X:</b> \n Many wright abilities have upgraded versions that can only be cast by <b>Infusing</b> them by spending X Aether as part of that ability. Aether is consumed at the start of the action. Only one infusion can be chosen at once, and only once infuse effect can trigger at a time. \n Infused abilities count as the same ability as the base ability and also benefit from all talents.",
+            "description": "All Wrights gather <b>Aether</b> during combat, represented by a d6 <b>power die</b>. They passively gain 1 at the start of their turn, starting with 0. Use a d6 to track Aether. Other abilities and <b>Chain Reaction</b> will generate Ather when used. All Aether disperses at the end of combat. <br/> <b>INFUSE X:</b> <br/> Many wright abilities have upgraded versions that can only be cast by <b>Infusing</b> them by spending X Aether as part of that ability. Aether is consumed at the start of the action. Only one infusion can be chosen at once, and only once infuse effect can trigger at a time. <br/> Infused abilities count as the same ability as the base ability and also benefit from all talents.",
             "gambit": "If you take a Wright ability as a non-wright class, you get <b>Aether</b> and <b>Chain Reaction</b>."
         },
         "traits": [
@@ -623,7 +629,7 @@
         },
         "mechanic": {
             "name": "Blessing",
-            "description": "Certain actions give characters a <b>Blessing</b> token. A character can <b>spend</b> a blessing when making a save to gain +1 boon on that save. \n All Mendicant jobs also have <b>different, alternative ways to spend blessings tokens</b>. All blessings are discarded at the end of combat. \n Blessings are not unique (they don't 'belong' to a character) and as long as a character has blessings form anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once.",
+            "description": "Certain actions give characters a <b>Blessing</b> token. A character can <b>spend</b> a blessing when making a save to gain +1 boon on that save. <br/> All Mendicant jobs also have <b>different, alternative ways to spend blessings tokens</b>. All blessings are discarded at the end of combat. <br/> Blessings are not unique (they don't 'belong' to a character) and as long as a character has blessings form anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once.",
             "gambit": "If you take a Mendicant ability as a non-Mendicant job, you gain this class' <b>Bless</b> action."
         },
         "traits": [
