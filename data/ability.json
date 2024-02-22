@@ -2,6 +2,7 @@
     {
         "job": "Bastion",
         "name": "Heracule",
+        "chapter": 1,
         "tags":[
             {"tag_name": "action", "val": 1}, 
             {"tag_name": "attack"},
@@ -12,15 +13,17 @@
         "blurb": "Hurl your shield or weapon as a discus with irrepressible force.",
         "talent1":"Heracule’s shoves can be in any direction",
         "talent2":"Heracule’s second effect triggers +1 more time.",
-        "talent3name": "PERFECT HERACULE",
-        "talent3":"Heracule gains <i>rebound<i>, and its second effect triggers +1 more time"
+        "masteryname": "PERFECT HERACULE",
+        "masterdescription":"Heracule gains <i>rebound<i>, and its second effect triggers +1 more time"
     },
     {
-        "job": "Bastion",
-        "name": "Battering Ram",
+        "job": "Sealer",
+        "name": "Godly Smite",
+        "chapter": 1,
         "tags":[
-            {"tag_name": "attack"}
+            {"tag_name": "interrupt", "val": 1},
+            {"tag_name": "trait"}
         ],
-        "description": "desc here..."
+        "description": "<i>Trigger:</i> You or an ally make an attack roll, and you see the total result (after boons, curses, and other adjustments). <i>Effect:</i> Add the number on your mantra die to the attack roll, which changes the final result. That foe also takes damage again after the attack resolves equal to the number on your manrta die."
     }
 ]

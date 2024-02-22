@@ -58,6 +58,46 @@
             {"tag_name": "size", "val":1},
             {"tag_name": "intangible"}
         ],
-        "description":"<b>Summon Action:</b> All beasts can dash 1 space at the start of your turn. <br/><b>Summon Effect:</b> WHen you ro an ally ends any movement adjacent to a beast's space, you may cause the beast to pounce at a foe in range 3. That character takes <i>unerring</i> damage equal to their distance from the beast (1-3). Then remove the beast.s"
+        "description":"<b>Summon Action:</b> All beasts can dash 1 space at the start of your turn. <br/><b>Summon Effect:</b> WHen you ro an ally ends any movement adjacent to a beast's space, you may cause the beast to pounce at a foe in range 3. That character takes <i>unerring</i> damage equal to their distance from the beast (1-3). Then remove the beast."
+    },
+    {
+        "job":"Harvester",
+        "limit": 1,
+        "name":"Severed Soul",
+        "tags":[
+            {"tag_name": "size", "val":1},
+            {"tag_name": "intangible"},
+            {"tag_name": "immobile"}
+        ],
+        "description":"<b>Summon Effect:</b> While they have their soul knocked out, foes can act normally. However, the soul can be targeted as if it was the body, transferring all damage or effects it would take to the body, no matter the distance or line of sight. Damage becomes <i>divine</i>. Abilities that are able to target both the body and soul of the foe (such as AoEs) can hit both."
+    },
+    {
+        "job":"Harvester",
+        "limit": 6,
+        "name":"Thrall",
+        "tags":[
+            {"tag_name": "size", "val":1},
+            {"tag_name": "intangible"}
+        ],
+        "description":"<b>Summon Action:</b> At the start of your turn, all your thralls may dash 2 spaces, ignoring difficult terrain, then dealing 1 piercing damage to an adjacent foe. THen, remove each thrall and replace it with a <i>plant</i>."
+    },
+    {
+        "job":"Harvester",
+        "limit": 0,
+        "name":"Plant",
+        "tags":[
+            {"tag_name": "terrain effect"}
+        ],
+        "description":"<b>Terrain Effect:</b> A plant space is <i>dangerous terrain</i> that only affects foes, and has a blessing token on it, which can be picked up if yourself or an ally enters its space. When the blessing is removed, remove the plant."
+    }
+    {
+        "job":"Seer",
+        "limit": 0,
+        "name":"Wild Card",
+        "tags":[
+            {"tag_name": "size", "val":1},
+            {"tag_name": "intangible"}
+        ],
+        "description":"<b>Summon Effect:</b> The card emits a small blast <i>area effect</i> centered on it, which is normally inactive. When any space of an area ability from you or an ally would touch the area, it can be activated, causing the card to explode, and externding the area effect of that ability to encompass the card's area for the duraction. Then, remove the card. <ul><li>Wild cards can be triggered by other wild cards</li><li>Wild cards do not extend the persistent effects of any area abilities, such as creating terrain effects in their space, but only the effects that last for the duraction of the ability.</li></ul>"
     }
 ]
