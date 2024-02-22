@@ -89,7 +89,7 @@
             {"tag_name": "terrain effect"}
         ],
         "description":"<b>Terrain Effect:</b> A plant space is <i>dangerous terrain</i> that only affects foes, and has a blessing token on it, which can be picked up if yourself or an ally enters its space. When the blessing is removed, remove the plant."
-    }
+    },
     {
         "job":"Seer",
         "limit": 0,
