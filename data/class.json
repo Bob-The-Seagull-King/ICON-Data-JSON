@@ -671,170 +671,175 @@
         "jobs": [
             {
                 "name": "Enochian",
-                "tagline": "",
-                "description": "",
+                "tagline": "Unbridled Destruction",
+                "description": "The Enochian Orders of wrights are the most chaotic of the mage orders. They have no official organization, most of their members being hedge wizards or self taught. Many Enochians disdain authority and work for hire, sleeping and eating where they can and relying on the communities they work for to support them. Those that work on contract with guilds, armies, or mercenary companies tend to value their independence. <br/>The power that condenses inside an Enochian is related to the element of fire, a wild spark that grows and wanes with their emotions and energy, but with control can be focused into power that can carve mountains, scorch forests, and boil rivers. In times of desperation, the Enochians can feed this power with their own life force, a dangerous practice that the other orders of wrights look down upon. The Enochians, for their part, see other wrights as stiff and uncreative. They’d rather do it their way, after all.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Inner Furnace",
+                        "desc": "Once a round, you may burn your own life force when you <i>Infuse</i> an ability. You can <i>sacrifice 25%</i> of your max hp to reduce the Aether cost of that ability by 2."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Embersoul",
+                        "desc": "Start combat with <i>regeneration</i> and <i>defiance</i>. Regain <i>regeneration</i> if <i>rescued</i>."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Phoenix Rage",
+                        "desc": "At the start of round 5, become suffused with immortal flame. Gain <i>defiance</i> at the start of each of your turns, and when you would take a wound, <i>gamble</i>. On a 4+, ignore it. If this is your last wound, this roll becomes a 2+ instead."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Soulfire",
+                        "desc": "You abilities gain <i>Comback:</i> Your threshold to <i>critical hit</i> becomes 18+, and your threshold to <i>exceed</i> becomes 13+. If you're at 1hp, these thresholds are reduced to 15+ and 10+."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Gigaflare",
+                    "blurb":"I, who stand at the apex of things, <br/>Thou, who are in the deepest pits of despair,<br/>Let thy very bones become ash!<br/>O Flame, let the air become death!<br/>Ignite, and be banished to Hell!",
+                    "description": "<b>Effect:</b> You summon the eldflame, the primeval force of creation, dealing [D]+Fray <i>divine</i> damage to <i>every</i> character, on the battlefield, ignoring line of sight. Characters in range 2 of you are exempt from this ability.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 4}, 
+                        {"tag_name": "action", "val": 2},
+                        {"tag_name": "divine"},
+                        {"tag_name": "unerring"},
+                        {"tag_name": "true strike"} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Meteor",
+                        "desc": "You gain the <b>Meteor</b> infusion."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Bright Soul",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "If you are defeated, you can choose to burn off all your aether to cause a massive <i>Burst 2 (self)</i> explosion <i>area effect</i>, dealing 4 piercing damage, then 4 piercing damage a number of times again to all characters inside equal to the amount of aether you burned."
                 }
             },
             {
                 "name": "Geomancer",
-                "tagline": "",
-                "description": "",
+                "tagline": "Guardian of the Pure Earth",
+                "description": "Geomancers belong to an old order of mystics, doctors, alchemists, and esoteric martial artists called the Keepers of the Elden Gate. These scholarly wrights are concerned with health and the flow of energy, not just through the body, but through the very earth itself. They consider themselves physicians of the highest order - their patient being the eternal land of Arden Eld.<br/>These studious wrights attune themselves to earth Aether, aligning the energy channels of their body to crystalline perfection with vigorous exercise and sometimes bizarre health regimes. In battle, the land itself is their ally, spitting forth poisonous gases, cavernous upheavals of earth, and great spires of rock to crush their foes. <br/>None are more concerned with the Churn than the geomancers, who view it as the greatest sickness known to Kin, and will take any opportunity to fight or study it with exuberance.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Aftershock",
+                        "desc": "When you use any attack, you can cause an aftershock in the space under your target. Gain <b>Delay:</b> Your next turn must be slow, but at the start of that turn, the aftershock explodes in a burst 1 <i>area effect</i> centered on that space, dealing piercing fray damage to characters within (other than you). If the area effect catches an object in the area, it deals piercing fray damage twice instead. <br/><i>Unlike most other delay effects, aftershock does not end your turn, and can stack with other delay effects.</i>"
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Resonance",
+                        "desc": "When you make an attack against a character at exactly range 3, it deals bonus damage, gain 1 Aether, and gain 3 vigor after the ability resolves."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Orogenic Rage",
+                        "desc": "At the start of round 5 and for the rest of combat, become <i>unstoppable</i> and your <i>aftershocks</i> deal double damage."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Stone Double",
+                        "desc": "When you first vacate a space on your turn, you can leave a height 1 <i>statue</i> object behind in the space you vacate."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Cataclysm",
+                    "blurb":"I, protected by the holy trigram,<br/>Summon the ten thousand molten metal kings.<br/>Run amok with thy furies, and rend the immortal stone,<br/>Turn Heaven and Earth!",
+                    "description": "<b>Effect: End your turn.</b> You dive into the earth and off the battlefield. Remove yourself from play. Target a line area 3 spaces wide from one side of the battlefield to the next. Then gain <b>Delay:</b> Your next turn must be slow. At the start of that turn, you cause a rolling wave of earth to sweep across this area, from one side to the next. Characters within tak [D] + fray as an effect and are shoved 1 in the direction of the line.<br/><b>Effect:</b> After the first effect resolves, all objects in the area release an explosion for a medium blast area effect centered on them, dealing [D] + Fray as an area effect. Characters hit by two or more explosions take 2[D] + Fray instead.<br/>When this ability resolves, place yourself in any unoccupied space in the area.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "resolve", "val": 3}, 
+                        {"tag_name": "action", "val": 1},
+                        {"tag_name": "divine"} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Molten Core",
+                        "desc": "After taking this move, you emerge with a shield of molten rock covering you. You gain <i>unstoppable</i> and <i>resistance</i> until the end of your next turn."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Stoneswim",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "You have <i>phasing</i>, for objects, and the spaces of objects always cost a maximum of 1 movement for you to enter."
                 }
             },
             {
                 "name": "Spellblade",
-                "tagline": "",
-                "description": "",
+                "tagline": "Swordmaster, Wind Dancer",
+                "description": "Spellblades are a martial order of highly trained wrights. Many of them come from the Guild Academies in the great cities of Arden Eld, where they often take prestigious posts in the local militias and city watch. Other wrights tend to view Spellblades as stiff, unfeeling military types, but spell blades themselves know they are consummate professionals and unparalleled masters of their art.<br/>The lightning Aether that the spellblades wield is highly volatile, and requires intense training and focus to control. Once a spell blade has learned their craft, however, the speed, power, and precision at which they can act is intoxicating, crossing great spans of space in an instant, riding the Aetherial currents with a flash of gleaming steel.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Aether Deflection",
+                        "desc": "Gain the <b>Aether Deflection</b> interrupt. You only have one use of this interrupt per combat. However, you can spend 2 Aether any time to regain it."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Conqueror's Edge",
+                        "desc": "The infuse cost of your abilities is reduced by 1 if there's a foe in range 2. Additionally, many of your infuses can be triggered as <i>slay</i> effects instead, and you may infuse 3 Aether to trigger the <i>slay</i> effect of any ability. Abilities with <i>infuse</i> and <i>slay</i> effects cannot trigger both at once."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Storm Hilt Rage",
+                        "desc": "At the start of round 5 and for the rest of combat, any effects that teleport you have the range of the battlefield, and you may teleport to any space before using any ability."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Klingenkunst (free action)",
+                        "desc": "Teleport 2. This ability can interrupt other abilities or movement on your turn without stopping them."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Gran Levincross",
+                    "blurb":"I summon thee, bloody gods of the cutting art, <br/>Let the might of the divine realm crash upon the piteous earth,<br/>Strike eighty thousand blows at once,<br/>And split the air asunder!",
+                    "description": "<b>Effect:</b> Your blade extends and you make two massive cuts across the map, splitting the walls between words. Draw a cross section across the map, splitting it into four sections of any size. Deal [D] + Fray <i>divine</i> damage to all characters caught in the cross, then remove all characters out of the affected area and place them in the nearest free space of your choice. Characters can pass a save to choose which side they end up on.<br/>The affected area becomes a crackling wall of lightning that does not block line of sight, but blocks all movement except teleporting. This effect ends at the end of the next round.<br/>Allies can use a <i>free action</i> to teleport across the wall from an adjacent space, placing them on the closest adjacent space on the other side.<br/>If any version of this ability has no valid space in which to teleport a character to, still deal damage, but this ability doesn't create the lightning wall.",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "action", "val": 2}, 
+                        {"tag_name": "resolve", "val": 4},
+                        {"tag_name": "divine"} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Gotterdammerung",
+                        "desc": "You gain the <b>Gotterdammerung</b> infusion."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Great Wind Riding",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "Once a turn, when you teleport, you can also teleport an adjacent ally with you, placing them in a free adjacent space after your teleport resolves."
                 }
             },
             {
                 "name": "Stormbender",
-                "tagline": "",
-                "description": "",
+                "tagline": "Dire Navigator, Master of the Waves",
+                "description": "The seas of Arden Eld are its most treacherous terrain. Boiling over with monsters, and wracked with unnatural and freakish weather, most folk prefer to give them wide berth. However, there are still those brave and hardy souls that live on the islands around Arden Eld, and the merchants, sailors, and travelers that rely on the sea for fast passage and the movement of cargo, the lifeblood of the continent’s great cities.<br/>The storm benders are the great masters of the sea, the supreme navigators that make sailing even possible around Arden Eld. Water-attuned wrights, they are most at home on a deck, or clambering the rigging. Each of them are sailors of the highest caliber, coming from all over - old trade guilds, islander clans, and nautical churner enclaves.<br/>Bending the essence of the sea to their beck and call, the storm benders can clear the skies with a swipe of their hands, feel the currents ahead for aquatic monsters, turn weather away from the hull of the ship, and blow wind into its sails. It doesn’t matter that many of them dabble in a little light piracy on the side - they are the undisputed masters of their element, and they wouldn’t have it any other way.",
                 "traits": [
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Selkie",
+                        "desc": "You have a bound elemental. At the start of any combat, <b>summon</b> a Seklie in range 3."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Dash on the Rocks",
+                        "desc": "1/round when you cause a character to <i>collide</i>, you may gain 1 Aether and deal 1 piercing damage as a burst 1 <i>area effect</i> centered on that character."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Sea Legs",
+                        "desc": "You deal bonus damage to characters in pits, difficult, or dangerous terrain. While inside any of your own terrain effects, you have <i>flying</i>."
                     },
                     {
-                        "name": "",
-                        "desc": ""
+                        "name": "Pelagic Rage",
+                        "desc": "At the start of round 5 and for the rest of combat, youare buoyed up by a huge swell of elemental water. You gain aura 2. Yourself and allies in the aura gain <i>flying</i> and <i>cover</i> from all direction, and the area is <i>difficult</i> and <i>dangerous</i> terrain for foes."
                     }
                 ],
                 "limitbreak": {
-                    "name": "",
-                    "blurb":"",
-                    "description": "",
+                    "name": "Elemental",
+                    "blurb":"On account of the magic that is in my body,<br/>Turn aside, detested of Sea and Storm,<br/>Thou wretch, go with thy face diverted!<br/>I call the elements into the temple of my body.<br/>Be scattered like dust, and feed the wind!",
+                    "description": "<b>Effect:</b> You take on a fearsome elemental form, gaining the following benefits for the rest of combat:<ul><li>You gain flying and phasing.</li><li>You release aura 2 around you. The area is a <i>terrain</i> effect that moves with you that is <i>difficult</i> and <i>dangerous</i> terrain for foes, and allies gain <i>cover</i> from all directions in the area.</li><li>You can share space with characters. You have <i>resistance</i> to any character sharing your space, and allies have <i>resistance</i> while sharing your space</li></ul>",
                     "tags":[
-                        {"tag_name": "", "val": 2}, 
-                        {"tag_name": "", "val": 1} 
+                        {"tag_name": "action", "val": 0}, 
+                        {"tag_name": "resolve", "val": 3} 
                     ],
                     "ultimate":{
-                        "name": "",
-                        "desc": ""
+                        "name": "Shield of the Four Winds",
+                        "desc": "If you so choose, when an ally would be shoved, teleported, or removed from your your area, you can completely prevent that ally from being moved. This effect can trigger only once a round."
                     }
                 },
                 "ultimatetrait":{
-                    "name" : "",
+                    "name" : "Whirlgang",
                     "tags":[
                     ],
-                    "description": ""
+                    "description": "You are highly attuned to the ambient air currents and can command them at will. At the statr of your turn, yourself and every ally in range 2 of you may fly 1 in the same direction as an <i>effect</i>."
                 }
             }
         ]

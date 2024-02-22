@@ -99,5 +99,27 @@
             {"tag_name": "intangible"}
         ],
         "description":"<b>Summon Effect:</b> The card emits a small blast <i>area effect</i> centered on it, which is normally inactive. When any space of an area ability from you or an ally would touch the area, it can be activated, causing the card to explode, and externding the area effect of that ability to encompass the card's area for the duraction. Then, remove the card. <ul><li>Wild cards can be triggered by other wild cards</li><li>Wild cards do not extend the persistent effects of any area abilities, such as creating terrain effects in their space, but only the effects that last for the duraction of the ability.</li></ul>"
+    },
+    {
+        "job":"Stormbender",
+        "limit": 1,
+        "name":"Selkie",
+        "tags":[
+            {"tag_name": "size", "val":1},
+            {"tag_name": "intangible"},
+            {"tag_name": "flying"}
+        ],
+        "description":"<b>Summon Effect:</b> Your selkie can share space with characters, and is also considered a <i>terrain effect</i>. <br/><b>Summon Action:</b> The selkie may fly 3 at the end of your turn. Any character standing in the Selkie's space when it moves is removed from the battlefield, then placed back in its space, or adjacent to it if that space is occupied."
+    },
+    {
+        "job":"Stormbender",
+        "limit": 6,
+        "name":"Salt Sprite",
+        "tags":[
+            {"tag_name": "size", "val":1},
+            {"tag_name": "intangible"},
+            {"tag_name": "immobile"}
+        ],
+        "description":"<b>Summon Effect:</b> The Sprite is both a <i>summon</i> and <i>terrain effect</i>. It can share space with other characters, and its area counts as <i>difficult terrain</i>.<br/><b>Effect:</b> WHen a charatcer is <i>shoved</i> into the sprite's area, it triggers <b>collide</b> effects and awakens it. Allies shoved into its space can fly 2. Foes are shoved 2 in any direction. Then, remove the sprite."
     }
 ]

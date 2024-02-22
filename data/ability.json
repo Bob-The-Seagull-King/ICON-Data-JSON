@@ -22,8 +22,18 @@
         "chapter": 1,
         "tags":[
             {"tag_name": "interrupt", "val": 1},
-            {"tag_name": "trait"}
+            {"tag_name": "trait", "val": "Godly Smite"}
         ],
         "description": "<i>Trigger:</i> You or an ally make an attack roll, and you see the total result (after boons, curses, and other adjustments). <i>Effect:</i> Add the number on your mantra die to the attack roll, which changes the final result. That foe also takes damage again after the attack resolves equal to the number on your manrta die."
+    },
+    {
+        "job": "Spellblade",
+        "name": "Aether Deflection",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "interrupt", "val": 1},
+            {"tag_name": "trait", "val": "Aether Deflection"}
+        ],
+        "description": "<i>Trigger:</i> You are targetted by an ability from a character in range 2. <i>Effect:</i> Gain <i>resistance</i> against damage from that ability."
     }
 ]

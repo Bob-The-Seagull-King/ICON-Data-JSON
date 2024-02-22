@@ -12,8 +12,27 @@
         "name": "Meteor",
         "tags":[
             {"tag_name": "infuse", "val": 8},
-            {"tag_name": "resolve", "val": 6}
+            {"tag_name": "resolve", "val": 6},
+            {"tag_name": "mastery"}
         ],
         "description": "Deal [D] + Fray four times instead. <br/> <i>Special Effect:</i> You can pay the resolve, aether, and action cost of this spell with your entire life force, dying after this action resolves, obliterating your body and scattering your soul. If you do, it deals 999 divine damage instead."
+    },
+    {
+        "ability": "Gran Levincross",
+        "name": "Ragnarok",
+        "tags":[
+            {"tag_name": "infuse", "val": 3},
+            {"tag_name": "slay"}
+        ],
+        "description": "<b>Area Effect:</b> After this ability resolves, scathing divine lightning hits a quarter of the map of your choice. Characters within take [D]+Fray Divine damage."
+    },
+    {
+        "ability": "Gran Levincross",
+        "name": "Gotterdammerung",
+        "tags":[
+            {"tag_name": "infuse", "val": 3},
+            {"tag_name": "mastery"}
+        ],
+        "description": "<b>Area Effect:</b> After this ability resolves, scathing divine lightning hits aevery quarter of the map but one of your choice. Characters within take 2[D]+Fray Divine damage."
     }
 ]
