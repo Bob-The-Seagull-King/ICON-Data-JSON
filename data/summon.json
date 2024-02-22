@@ -121,5 +121,15 @@
             {"tag_name": "immobile"}
         ],
         "description":"<b>Summon Effect:</b> The Sprite is both a <i>summon</i> and <i>terrain effect</i>. It can share space with other characters, and its area counts as <i>difficult terrain</i>.<br/><b>Effect:</b> WHen a charatcer is <i>shoved</i> into the sprite's area, it triggers <b>collide</b> effects and awakens it. Allies shoved into its space can fly 2. Foes are shoved 2 in any direction. Then, remove the sprite."
+    },
+    {
+        "job":"Enochian",
+        "limit": 0,
+        "name":"Aethershard",
+        "tags":[
+            {"tag_name": "height", "val":1},
+            {"tag_name": "object"}
+        ],
+        "description":"<b>Summon Effect:</b> When you include the Aethershard in the <i>area effect</i> of any ability, the ability resonates with the shards, dealing 2 piercing damage as an <i>area effect</i>, once, to all characters in the area for every one of your Aethershards caught in the same ability. Then destroy all Aethershards activated this way and gain 1 Aether."
     }
 ]
