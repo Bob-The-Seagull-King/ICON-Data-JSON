@@ -35,9 +35,9 @@
         "name": "Land Waster",
         "chapter": 1,
         "tags":[
-            {"tag_name": "action", "val": 2}
+            {"tag_name": "action", "val": 2},
 			{"tag_name": "attack"},
-            {"tag_name": "burst-target", "val": 1},			
+            {"tag_name": "burst-target", "val": 1}			
         ],
         "description": "<b>Attack</b>: <i>On hit</i>: 2[D] + fray. <i>Miss</i>: fray. <b>Area effect</b>: Foes take fray damage. <b>Effect</b>: Shove all characters in the area except you 1 space away from your attack target, then, shove your target 1. <b>Heroic</b>: Gains <i>True Strike</i> and becomes Burst 2 (target)",
         "blurb": "Crash your greatshield or weapon into the earth, sending up devastating shockwaves.",
