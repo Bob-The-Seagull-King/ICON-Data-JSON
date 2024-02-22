@@ -1,0 +1,19 @@
+[
+    {
+        "ability": "Gigaflare",
+        "name": "Tetraflare",
+        "tags":[
+            {"tag_name": "infuse", "val": 6}
+        ],
+        "description": "Deal [D] + Fray twice instead."
+    },
+    {
+        "ability": "Gigaflare",
+        "name": "Meteor",
+        "tags":[
+            {"tag_name": "infuse", "val": 8},
+            {"tag_name": "resolve", "val": 6}
+        ],
+        "description": "Deal [D] + Fray four times instead. <br/> <i>Special Effect:</i> You can pay the resolve, aether, and action cost of this spell with your entire life force, dying after this action resolves, obliterating your body and scattering your soul. If you do, it deals 999 divine damage instead."
+    }
+]
