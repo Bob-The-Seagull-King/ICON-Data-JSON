@@ -17,6 +17,36 @@
         "masterdescription":"Heracule gains <i>rebound<i>, and its second effect triggers +1 more time"
     },
     {
+        "job": "Bastion",
+        "name": "Battering Ram",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1} 
+        ],
+        "description": "<b>Effect:</b> An adjacent character is shoved 2 spaces. <b>Collide</b> or <b>Heroic</b>: Foe is <i>slashed</i>, and refund the action cost of this ability.",
+        "blurb": "Use your shield, weapon, or armored fist and send your target flying.",
+        "talent1": "You may rush 1 before using Battering Ram.",
+        "talent2": "You can also shove objects with Battering Ram. The object triggers <i>collide</i> effects on the first character it collides with.",
+        "masteryname": "GATE SMASHER",
+        "masterdescription":"Once a turn, if you trigger Battering Ram’s <i>Collide</i> or <i>Heroic</i> effect, the ability can be used one more time this turn."
+    },
+    {
+        "job": "Bastion",
+        "name": "Land Waster",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 2}
+			{"tag_name": "attack"},
+            {"tag_name": "burst-target", "val": 1},			
+        ],
+        "description": "<b>Attack</b>: <i>On hit</i>: 2[D] + fray. <i>Miss</i>: fray. <b>Area effect</b>: Foes take fray damage. <b>Effect</b>: Shove all characters in the area except you 1 space away from your attack target, then, shove your target 1. <b>Heroic</b>: Gains <i>True Strike</i> and becomes Burst 2 (target)",
+        "blurb": "Crash your greatshield or weapon into the earth, sending up devastating shockwaves.",
+        "talent1": "If Land Waster’s effect shockwave shoves 3 or more foes or allies, it shoves +1 and <i>stuns</i> your target.",
+        "talent2": "If Land Waster’s effect shockwave shoves 2 or more foes or allies, <i>cure</i> yourself.",
+        "masteryname": "AJAX",
+        "masterdescription":"Terrain effect: Before Land Waster’s effect triggers, you tear up the very ground, creating a height 1 boulder <i>object</i> in range 3 of you."
+    },
+    {
         "job": "Sealer",
         "name": "Godly Smite",
         "chapter": 1,
