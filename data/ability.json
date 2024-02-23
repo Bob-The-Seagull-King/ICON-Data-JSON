@@ -149,7 +149,8 @@
         "chapter": 1,
         "tags":[
             {"tag_name": "action", "val": 1},
-            {"tag_name": "range", "val": 6}
+            {"tag_name": "range", "val": 6},
+            {"tag_name": "summon", "val": "Aethershard"}
         ],
         "description": "<b>Object:</b><i> Sacrifice 3</i> and <b>summon</b> an Aethershard in a free space in range 6.<br/><b>Comeback:</b> Reduce <i>sacrifice</i> to 1.",
         "blurb": "You crystallize ambient Aether with force of will, forcing it to take a useful form.",

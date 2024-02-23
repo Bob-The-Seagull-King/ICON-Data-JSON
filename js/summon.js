@@ -1,4 +1,6 @@
-const bannedSummonTags = [];
+// Use for special tags -------------------------------
+const bannedSummonTags = ["ability"];
+// ----------------------------------------------------
 
 testSummon();
 
@@ -6,20 +8,25 @@ async function testSummon() {
     let data = await getJsonSummonData();
     for (i = 0; i < data.length; i++) {
 
-        createSummon("contentBody", "", data[i]["name"]);
+        getSummon("contentBody", "", data[i]["name"]);
 
     }
 }
 
-async function createSummon(elementID, job, summonName) {
-    // Find and Create elements -------------------
-    const elem = document.getElementById(elementID);
-    const summonDiv = document.createElement("div");
-    // --------------------------------------------
-
+async function getSummon(elementID, job, summonName) {
     // Get specific summon ------------------------
     let data = await getJsonSummonData();
-    let summonData = getRelevantSummon(summonName, data);
+    let summonData = await getRelevantSummon(summonName, data);
+    // --------------------------------------------
+    
+    const elem = document.getElementById(elementID);
+    const elemAppend = createSummon(elementID, job, summonName, summonData);
+    elem.appendChild(elemAppend);
+}
+
+function createSummon(elementID, job, summonName, summonData) {
+    // Find and Create elements -------------------
+    const summonDiv = document.createElement("div");
     // --------------------------------------------
 
     // Construct Element --------------------------
@@ -37,7 +44,7 @@ async function createSummon(elementID, job, summonName) {
     // --------------------------------------------
 
     // Add summon to element ----------------------
-    elem.appendChild(summonDiv);
+    return summonDiv;
     // --------------------------------------------
 }
 
