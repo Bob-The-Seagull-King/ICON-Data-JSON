@@ -9,7 +9,7 @@
             {"tag_name": "range", "val": 3},
             {"tag_name": "true strike"}
         ],
-        "description": "<b>Attack:</b> <i>On hit:</i> [D] + fray. Miss: fray.<br> <b>Effect:</b> Attack target is weakened and shoved 1<br> <b>Effect:</b> A different foe in range 3 from your target is shoved 1 away from your main target.<br> <b>Collide or Heroic:</b> Repeat the above effect<br>",
+        "description": "<b>Attack:</b> <i>On hit:</i> [D] + fray. Miss: fray.<br><b>Effect:</b> Attack target is weakened and shoved 1<br> <b>Effect:</b> A different foe in range 3 from your target is shoved 1 away from your main target.<br><b>Collide or Heroic:</b> Repeat the above effect<br>",
         "blurb": "Hurl your shield or weapon as a discus with irrepressible force.",
         "talent1":"Heracule’s shoves can be in any direction",
         "talent2":"Heracule’s second effect triggers +1 more time.",
@@ -23,7 +23,7 @@
         "tags":[
             {"tag_name": "action", "val": 1} 
         ],
-        "description": "<b>Effect:</b> An adjacent character is shoved 2 spaces. <b>Collide</b> or <b>Heroic</b>: Foe is <i>slashed</i>, and refund the action cost of this ability.",
+        "description": "<b>Effect:</b> An adjacent character is shoved 2 spaces.<br><b>Collide</b> or <b>Heroic</b>: Foe is <i>slashed</i>, and refund the action cost of this ability.",
         "blurb": "Use your shield, weapon, or armored fist and send your target flying.",
         "talent1": "You may rush 1 before using Battering Ram.",
         "talent2": "You can also shove objects with Battering Ram. The object triggers <i>collide</i> effects on the first character it collides with.",
@@ -39,12 +39,71 @@
 			{"tag_name": "attack"},
             {"tag_name": "burst-target", "val": 1}			
         ],
-        "description": "<b>Attack</b>: <i>On hit</i>: 2[D] + fray. <i>Miss</i>: fray. <b>Area effect</b>: Foes take fray damage. <b>Effect</b>: Shove all characters in the area except you 1 space away from your attack target, then, shove your target 1. <b>Heroic</b>: Gains <i>True Strike</i> and becomes Burst 2 (target)",
+        "description": "<b>Attack</b>: <i>On hit</i>: 2[D] + fray. <i>Miss</i>: fray.<br><b>Area effect</b>: Foes take fray damage.<br><b>Effect</b>: Shove all characters in the area except you 1 space away from your attack target, then, shove your target 1. <br><b>Heroic</b>: Gains <i>True Strike</i> and becomes Burst 2 (target).",
         "blurb": "Crash your greatshield or weapon into the earth, sending up devastating shockwaves.",
         "talent1": "If Land Waster’s effect shockwave shoves 3 or more foes or allies, it shoves +1 and <i>stuns</i> your target.",
         "talent2": "If Land Waster’s effect shockwave shoves 2 or more foes or allies, <i>cure</i> yourself.",
         "masteryname": "AJAX",
         "masterdescription":"Terrain effect: Before Land Waster’s effect triggers, you tear up the very ground, creating a height 1 boulder <i>object</i> in range 3 of you."
+    },
+    {
+        "job": "Bastion",
+        "name": "Valiant",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1}	
+        ],
+        "description": "<b>Effect</b>: <i>Rush</i> 1, then <i>rush</i> 1. After each rush, shove all adjacent characters 1.<br><b>Collide</b> or <b>Heroic</b>: <i>Rush</i> 1 again, then shove all adjacent characters 1.",
+        "blurb": "Stride forth, with your shield held before you, battering aside foes.",
+        "talent1": "<i>Collide</i>: Become <i>unstoppable</i> for the rest of your turn.",
+        "talent2": "If you only shove one foe, they gain <i>hatred</i> of you after this ability resolves.",
+        "masteryname": "SECOND WIND",
+        "masterdescription":"At round 4 or higher in combat, Valiant becomes a free action."
+    },
+    {
+        "job": "Bastion",
+        "name": "Endless Battlement",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "stance"},
+			{"tag_name": "aura"}					
+        ],
+        "description": "<b>Stance</b>: When you enter this stance, or when it refreshes, choose an ally in range 4. That ally gains aura 1 until the start of your next turn. The aura deactivates if your ally is out of range. While the aura is active, you can use the following interrupt:<br><b>Refresh</b>: Refresh this stance at the start of your turn.<br><b>Heroic</b>: Immediately activate the interrupt effect.",
+        "blurb": "The land itself is your castle, and you will never let its walls be breached. No matter where your allies step, your shield will be there.",
+        "talent1": "While you are in the aura, attacks against your ally gain +1 curse.",
+        "talent2": "You and your ally both have have <i>counter</i> while you are in the aura.",
+        "masteryname": "PERFECT BATTLEMENT",
+        "masterdescription":"At round 4 or higher, Endless Battlement has no maximum range, deals 4 damage instead of 2, and becomes interrupt 2."
+    },
+    {
+        "job": "Bastion",
+        "name": "Catapult",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "interrupt", "val": 1}				
+        ],
+        "description": "<b>Trigger</b>: An ally ends a movement in an adjacent space<br><b>Effect</b>: Shove that ally 2 in any direction.<b>Collide</b> or <b>Heroic</b>: That ally gains 2 vigor and may <i>rush</i> 1.",
+        "blurb": "Use your shield as a springboard to set up ally maneuvers or to deflect projectiles.",
+        "talent1": "Your shield becomes a valid target for allied abilities. You can expend this interrupt to grant them <i>rebound</i>.",
+        "talent2": "Catapult can also be triggered on foes. When triggered on foes, the effect becomes effect: shove 1. <i>Collide</i>: you may rush 1.",
+        "masteryname": "MANGONEL",
+        "masterdescription":"Catapult becomes Interrupt 3."
+    },
+    {
+        "job": "Bastion",
+        "name": "Perseus",
+        "chapter": 2,
+        "tags":[
+            {"tag_name": "interrupt", "val": 2},
+            {"tag_name": "aura"}			
+        ],
+        "description": "<b>Trigger</b>: You are included in an allied <i>area effect</i>.<br><b>Effect</b>: You release an aura 1 effect centered on you that lasts for the duration of the triggering ability, extending the area effect to encompass the aura. You can choose to be immune to any part of the triggering ability.<br><b>Heroic</b>: Increase the aura size by +1.",
+        "blurb": "Your armor and shield become a mirror, channeling and amplifying the destructive power of your allies’ attacks.",
+        "talent1": "You gain 4 vigor the first time in a round this ability triggers.",
+        "talent2": "You can extend the area as a line 5 <i>area effect</i> instead of an aura.",
+        "masteryname": "CHAOS FINISHER",
+        "masterdescription":"When this interrupt triggers, after the triggering effect resolves, you may deal 2 damage to all affected foes from the triggering ability and shove them 1 in any direction."
     },
     {
         "job": "Sealer",
