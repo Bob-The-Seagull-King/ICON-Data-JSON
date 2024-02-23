@@ -2,34 +2,30 @@
 const bannedSummonTags = ["ability"];
 // ----------------------------------------------------
 
-testSummon();
-
-async function testSummon() {
-    let data = await getJsonSummonData();
-    for (i = 0; i < data.length; i++) {
-
-        getSummon("contentBody", "", data[i]["name"]);
-
-    }
-}
-
-async function getSummon(elementID, job, summonName) {
-    // Get specific summon ------------------------
-    let data = await getJsonSummonData();
+// Attatches a Summon element -------------------------
+async function getSummon(elementID, summonName) {
+    let data = await getJsonData("../data/summon.json");
     let summonData = await getRelevantSummon(summonName, data);
-    // --------------------------------------------
     
     const elem = document.getElementById(elementID);
-    const elemAppend = createSummon(elementID, job, summonName, summonData);
+    const elemAppend = createSummon(summonName, summonData);
     elem.appendChild(elemAppend);
 }
+// ----------------------------------------------------
 
-function createSummon(elementID, job, summonName, summonData) {
-    // Find and Create elements -------------------
+// Finds a specific summon ------------------------
+function getRelevantSummon(summonName, data) {
+    for (let i = 0; i < data.length; i++){
+        if (data[i]["name"] == summonName) {
+            return data[i];
+        }
+    }
+}
+// ------------------------------------------------
+
+// Builds a Summon element ----------------------------
+function createSummon(summonName, summonData) {
     const summonDiv = document.createElement("div");
-    // --------------------------------------------
-
-    // Construct Element --------------------------
     summonDiv.id = summonName + "ParentDiv";
 
     const summonCount = getSummonCount(summonData);
@@ -41,26 +37,19 @@ function createSummon(elementID, job, summonName, summonData) {
     summonDiv.appendChild(summonTitle);
     summonDiv.appendChild(summonTags);
     summonDiv.appendChild(summonDescription);
-    // --------------------------------------------
 
-    // Add summon to element ----------------------
     return summonDiv;
-    // --------------------------------------------
 }
+// ------------------------------------------------
 
-async function getJsonSummonData() {
-    const response = await fetch("../data/summon.json");
-    return await response.json();
-}
+// Builds specific elements of the summon ---------
 
-function getRelevantSummon(summonName, data) {
-    for (let i = 0; i < data.length; i++){
-        if (data[i]["name"] == summonName) {
-            return data[i];
-        }
-    }
-}
-
+/*
+    Returns a text element describing how many of a
+    summon you can have at once. Wording changes if
+    you can have one, multiple, or an unlimited
+    amount of that specific summon.
+*/
 function getSummonCount(summonData) {
     const elemCount = document.createElement("div");
     const elemText = document.createElement("p");
@@ -83,6 +72,10 @@ function getSummonCount(summonData) {
     return elemCount;
 }
 
+/*
+    Returns the title element of the summon, using
+    the name.
+*/
 function getSummonTitle(summonData) {
     const elemName = document.createElement("div");
     const elemText = document.createElement("h3");
@@ -96,6 +89,11 @@ function getSummonTitle(summonData) {
     return elemName;
 }
 
+/*
+    Returns a list of the summon's tags, if
+    the tag is part of a banned list it will
+    not be shown. Tags are capitalized.
+*/
 function getSummonTags(summonData) {
     const elemTags = document.createElement("div");
     const elemText = document.createElement("p");
@@ -119,6 +117,10 @@ function getSummonTags(summonData) {
     return elemTags;
 }
 
+/* 
+    Returns an element containing the description
+    data of the summon, which is html.
+*/
 function getSummonDescription(summonData) {
     const elemDesc = document.createElement("div");
 
@@ -127,3 +129,6 @@ function getSummonDescription(summonData) {
 
     return elemDesc;
 }
+
+
+// ------------------------------------------------
