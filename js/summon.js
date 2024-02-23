@@ -101,15 +101,22 @@ function getSummonTags(summonData) {
     elemTags.id = summonData["name"] + "Tags";
     elemText.id = summonData["name"] + "TagsText"
     
+    let tagArray = [];
     for (let i = 0; i < summonData["tags"].length; i++){
-        if ((summonData["tags"][i]["tag_name"] in bannedSummonTags) == false) {
-            elemText.innerText += capitalizeFirstLetter(summonData["tags"][i]["tag_name"]);
+        if (( bannedSummonTags.includes(summonData["tags"][i]["tag_name"])) == false) {
+            let tagText = "";
+            tagText = capitalizeFirstLetter(summonData["tags"][i]["tag_name"]);
             if (summonData["tags"][i]["val"] != undefined) {
-            elemText.innerText += " " + summonData["tags"][i]["val"];
+            tagText += " " + summonData["tags"][i]["val"];
             }
-            if (i < summonData["tags"].length - 1){
-                elemText.innerText += ", "
-            }
+            tagArray.push(tagText);
+        }
+    }
+
+    for (let i = 0; i < tagArray.length; i++) {
+        elemText.innerText += tagArray[i];
+        if (i < tagArray.length - 1) {
+            elemText.innerText += ", "
         }
     }
 
