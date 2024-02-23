@@ -1,5 +1,14 @@
 [
     {
+        "job": "Bastion",
+        "ability": "Endless Battlement",
+        "name": "Heroic Intervention",
+        "tags":[
+            {"tag_name": "interrupt", "val": 1}
+        ],
+        "description": "<b>Trigger</b>: A foe targets your ally with an ability<br><b>Effect</b>: You soar into the air, removing yourself from the battlefield, then return in any space in the aura. Adjacent foes take 2 damage."
+    },
+    {
         "job": "Enochian",
         "ability": "Gigaflare",
         "name": "Tetraflare",
