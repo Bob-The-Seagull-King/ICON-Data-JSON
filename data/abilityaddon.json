@@ -8,6 +8,33 @@
         ],
         "description": "<b>Trigger</b>: A foe targets your ally with an ability<br><b>Effect</b>: You soar into the air, removing yourself from the battlefield, then return in any space in the aura. Adjacent foes take 2 damage."
     },
+	{
+        "job": "Demon Slayer",
+        "ability": "Comet",
+        "name": "Thrown Weapon",
+        "tags":[
+            {"tag_name": "height", "val": 1}
+        ],
+        "description": "<b>Object</b>: Space adjacent to it have <i>rampart</i>. While this object is active, you cannot attack. You can pick your weapon up if you enter or exit any space adjacent to it or start your turn there, ending this effect and removing the object. You also pick it up if it’s removed for any other reason."
+    },
+	{
+        "job": "Demon Slayer",
+        "ability": "Gates of Hell",
+        "name": "Flash Step",
+        "tags":[
+            {"tag_name": "free action"}
+        ],
+        "description": "<b>Effect</b>: Remove an afterimage that has no characters occupying it, then remove yourself and place yourself in its space."
+    },
+	{
+        "job": "Demon Slayer",
+        "ability": "Six Hells Trigram",
+        "name": "Dark Wind Chain",
+        "tags":[
+            {"tag_name": "free action"}
+        ],
+        "description": "<i>Effect</i>: Deal 2 damage to any foe in range 4 and shove them 1 space towards you, then force them to save. On a failed save, they are shoved 2 more spaces towards you."
+    },
     {
         "job": "Enochian",
         "ability": "Gigaflare",
