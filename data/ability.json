@@ -295,6 +295,125 @@
         "masterdescription":"When you use Valkyrie, <i>all</i> allies may fly 1. If they end this flight on a lower elevation than they started, they may fly 1 again."
     },
     {
+        "job": "Colossus",
+        "name": "Upheaval",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "range", "val": 3}
+        ],
+        "description": "<b>Terrain Effect</b>: Smash the battlefield, creating a height 1 boulder <i>object</i> in free space in range. Adjacent characters are shoved 1 away from the terrain when it appears.<br><b>Comeback</b> or <b>Heroic</b>: Create <i>difficult</i> terrain underneath any character shoved by this ability.",
+        "blurb": "The disciples of the wolf titan exhibit such legendary strength that they can rip up the earth itself with their bare hands.",
+        "talent1":"The boulder bounces before landing, dealing 2 damage in a small blast <i>area effect</i> anywhere in range. <i>Charge</i>: Large blast",
+        "talent2":"The boulder bounces before landing, creating a <i>pit</i> anywhere in free space in range.",
+        "masteryname":"TITAN STRENGTH",
+        "masterdescription":"Gains range 5 and <i>Comeback</i>: Boulder may be placed as a height 2 pillar instead."
+    },
+    {
+        "job": "Colossus",
+        "name": "Dropkick",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "sacrifice"}
+        ],
+        "description": "<b>Effect</b>: Fly 1.<br><b>Effect</b>: <i>Sacrifice</i> 6. An adjacent foe takes [D] + fray damage.<br><b>Heroic</b>: You may <i>rush</i> 2 before or after using this ability.",
+        "blurb": "No blurb.",
+        "talent1":"<i>Comeback</i>: Hit your foe so hard that you create 2 spaces of difficult terrain in adjacent spaces after this ability resolves.",
+        "talent2":"Shove your foe 1, then shove yourself 1 away from your foe. <i>Charge</i>: Increase shoves to 2.",
+        "masteryname":"GIANT KICKER",
+        "masterdescription":"At round 4 or later, Dropkick gains true strike and a line 4 <i>area effect</i> that must include your target. The area deals fray damage to all characters other than your target."
+    },
+    {
+        "job": "Colossus",
+        "name": "Massive Overhead",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "end turn"}
+        ],
+        "description": "<b>End your turn</b>. Your next attack strikes with such force that it deals <i>bonus damage</i> and creates a <i>pit</i> under its target after it resolves.<br><b>Special Effect</b>: If your target was already in a pit before the triggering attack, it also activates all <i>exceed</i> effects.<br><b>Comeback</b> or <b>Heroic</b>: Attack may also create a small blast <i>area effect</i> on its target, dealing 2 damage to all characters inside.",
+        "blurb": "No blurb.",
+        "talent1":"Attack gains <i>Exceed</i>: Also create a height 1 boulder object adjacent to your foe.",
+        "talent2":"Attack gains <i>Exceed</i>: The pit also becomes <i>dangerous</i> terrain.",
+        "masteryname":"BLOOD RUSH",
+        "masterdescription":"At round 4 or later, Massive Overhead also grants you 4 vigor and no longer ends your turn."
+    },
+    {
+        "job": "Colossus",
+        "name": "Takedown",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 2},
+			{"tag_name": "attack"}
+        ],
+        "description": "<b>Attack</b>: <i>On hit</i>: [D] + fray. <i>Miss</i>: fray.<br><b>Effect</b>: Both you and your foe are <i>stunned</i>. You may <i>sacrifice</i> 4 to avoid this stun.<br><b>Exceed</b> or <b>Heroic</b>: Gains <i>true strike</i> and creates a <i>pit</i> under your target.",
+        "blurb": "You deliver a mighty blow with wild abandon, so strong that you yourself are left reeling.",
+        "talent1":"You may <i>rush</i> 2 or <i>fly</i> 2 before using Takedown.",
+        "talent2":"You can also choose to shove your target 2, then shove yourself 2. <i>Collide</i>: Deal fray damage.",
+        "masteryname":"FIERCE ELBOW",
+        "masterdescription":"When you takedown a character, the character takes 2 damage once after the ability resolves for each difference in elevation between you and them when you started this ability, for a maximum of three times."
+    },
+    {
+        "job": "Colossus",
+        "name": "Great Suplex",
+        "chapter": 1,
+        "tags":[
+            {"tag_name": "action", "val": 2}
+        ],
+        "description": "<b>Effect</b>: You pick up an adjacent foe, removing them from the battlefield.<br><b>Effect</b>: <i>Sacrifice</i> up to 6, then fly half that many spaces. Place your foe in a free adjacent space. They take [D]+fray damage and are <i>slashed</i>. <i>Slashed</i> characters are <i>stunned</i>. If you can’t place the foe in a valid space this action can’t be taken.<br><b>Heroic</b>: Sacrifice cost costs 0 hp but counts as sacrificing 6",
+        "blurb": "Wrapping your arms around your foe, you fling the two of you backwards with a force that liquifies rock.",
+        "talent1":"This ability deals bonus damage to your target if you land them in a pit.",
+        "talent2":"You can use this ability on allies. If you do, reduce its action cost to 1, they are immune to its damage and statuses, and both of you can rush 1 after it resolves.",
+        "masteryname":"TITANHEART",
+        "masterdescription":"You can target two adjacent characters with this ability."
+    },
+    {
+        "job": "Colossus",
+        "name": "Gigaton Whip",
+        "chapter": 2,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "attack"},
+			{"tag_name": "true strike"}
+        ],
+        "description": "<b>Attack</b>: <i>On hit</i>: [D]. <i>Miss</i>: 1 damage. <i>Effect</i>: shove 2.<br><b>Collide</b>: You bounce your foe, then and catch them mid air. Remove them from the battlefield, fly 1, then place them in any free adjacent space. They take fray damage.<br><b>Exceed</b> or <b>Heroic</b>: Smash the ground when you land, creating difficult terrain under your foe and in two adjacent spaces.",
+        "blurb": "You fling your foe into a wall, catching them on the rebound.",
+        "talent1":"If your target collides with another character, you may also shove that character 1 and deal 2 damage to them.",
+        "talent2":"Fly 2 instead. <i>Charge</i>: Shove 3 and fly 3.",
+        "masteryname":"IZUNA DROP",
+        "masterdescription":"Instead of the normal collide effect, on <i>collide</i> you can do the legendary <i>Izuna Drop</i>. You take a pose, then <i>end your turn</i> and gain <b>Delay</b>: Your next turn must be slow. At the start of that turn, you may rush 2, then if <i>any</i> foe is adjacent, you grab them, removing both of you from the battlefield, then come spinning back to earth, placing both of you back in free space adjacent to each other in range 3. That foe is <i>weakened</i>, <i>stunned</i> and takes fray damage twice."
+    },
+    {
+        "job": "Colossus",
+        "name": "Raging Wolf",
+        "chapter": 2,
+        "tags":[
+            {"tag_name": "action", "val": 1},
+			{"tag_name": "true strike"}
+        ],
+        "description": "<b>Special</b>: This ability has no effect if you are not bloodied.<br><b>Comeback</b>: Gain additional effects depending on your current hp. Each effect stacks and takes place in order.<ul><i>Bloodied</i>: You may <i>rush</i> 1, then deal fray damage to an adjacent foe. That foe is <i>slashed</i>.<br><i>25% or lower</i>: You may fly 1, then shove all adjacent foes 1.<br><i>1 hp or lower</i>: Repeat the above two effects.</ul><b>Heroic</b>: Become <i>unstoppable</i> and <i>immune</i> to all damage while using this ability.<br><b>Special</b>: If you are <i>defeated</i>, your next use of this ability in the same combat becomes a <i>free action</i>.",
+        "blurb": "You deliver a spectacular series of wild, rising blows. Like a cornered animal, your strength becomes greater the more of your blood spills.",
+        "talent1":"You can voluntarily reduce yourself to 1 hp before using Raging Wolf.",
+        "talent2":"While you’re at 1 hp, increase flight to 3",
+        "masteryname":"BEAST WITHIN",
+        "masterdescription":"You can immediately use Raging Wolf as an interrupt before becoming defeated. This ignores the interrupt limit."
+    },
+    {
+        "job": "Colossus",
+        "name": "Boiling Blood",
+        "chapter": 3,
+        "tags":[
+            {"tag_name": "interrupt", "val": 1}
+        ],
+        "description": "Defy Death:",
+        "blurb": "Colossi can lash out with the last of their strength, using the heat and strength of their body to punish their foes before expiring.",
+        "talent1":"While Defy Death is active, all abilities also trigger all <i>exceed</i> effects.",
+        "talent2":"You can rush or fly 1 before using any ability while Defy Death is active.",
+        "masteryname":"GREAT HEMON",
+        "masterdescription":"When Defy Death would expire, you can take a wound to extend the duration by 1 turn. This effect can only be triggered once per combat."
+    },
+    {
         "job": "Sealer",
         "name": "Godly Smite",
         "chapter": 1,
